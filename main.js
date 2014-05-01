@@ -45,7 +45,6 @@ function lightbox(i) {
 			$('#loader').remove();
 			imgWidth = $(bigImg).width();
 			imgHeight = $(bigImg).height();
-			console.log(imgHeight);
 			$('#photoBoxBorder').css({
 				'margin-left': -(imgWidth / 2),
 				'margin-top': -(imgHeight / 2)
